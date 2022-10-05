@@ -87,6 +87,13 @@ body
   margin-bottom: 5px;
 }
 
+#clr-history{
+  text-align: center;
+}
+#clr-history:hover{
+  color:black;
+}
+
 
 .calculator 
 {
