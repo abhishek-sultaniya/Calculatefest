@@ -624,10 +624,10 @@ function saveTofac(form)
     {
     //   background-color: #c2b6b6;
     // background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%);
-    document.body.style.backgroundColor="c2b6b6";
-    // document.body.style.backgroundImage="linear-gradient(315deg, #c2b6b6 0%, #576574 74%)"
-
-    document.body.style.backgroundImage="linear-gradient(90deg, #139ba0, rgba(39, 146, 179, 0.972))";
+    document.body.style.backgroundColor="cae8fc";
+    document.getElementById("calc-history").style.backgroundColor="rgb(228,230,238)";
+    document.getElementById("calc-history").style.color="#305082";
+    document.body.style.backgroundImage="linear-gradient(130deg, #d6ebff, #9ac1e6)";
     // background: linear-gradient(90deg, #139ba0, rgba(39, 146, 179, 0.972));
 
     document.querySelector(".calculator").classList.toggle("calculator-light")
@@ -635,8 +635,10 @@ function saveTofac(form)
     else
     {
     // document.body.style.backgroundColor="#371B58";
-    document.body.style.backgroundColor=" #090947";
-    document.body.style.backgroundImage="linear-gradient(315deg, #090947 0%, #5a585a 74%)"
+    document.body.style.backgroundColor=" #111824";
+    document.body.style.backgroundImage="linear-gradient(315deg, #111824 , #141b26,#202630,#393e47)";
+    document.getElementById("calc-history").style.backgroundColor="#6c757d";
+    document.getElementById("calc-history").style.color="white";
     document.querySelector(".calculator").classList.toggle("calculator-light")
     }
     a++;
@@ -651,4 +653,5 @@ function saveTofac(form)
     form.display.value =(eval(form.display.value));
     form.display.value =1/ form.display.value;
   }
-  
+
+    
