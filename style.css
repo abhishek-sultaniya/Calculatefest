@@ -7,11 +7,12 @@
 body 
 {
   /* background-color: #2E2E2E; */
-  color: #121212;
+  /* color: #121212; */
   /* background-color: #371B58; */
   /* background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
-  background-color: #090947;
-  background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+  background-color: #111824;
+  background-image: linear-gradient(315deg, #111824,#141b26,#202630, #393e47);
+  /* background-image: linear-gradient(315deg, #111824,#141b26,#202630, #5a585a ); */
   
 
   align-items: center;
@@ -62,7 +63,7 @@ body
   width: 300px;
   height: 420px;
   /* background-color: #636363; */
-  background-color: 6c757d;
+  background-color: #6c757d;
   border-radius: 5px;
   margin-top: 6px;
   margin: 1% 10%;
