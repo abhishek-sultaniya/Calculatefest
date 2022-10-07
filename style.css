@@ -184,12 +184,17 @@ body
 
 
 .button {
-  background-color: #4CAF50;
-  border: none;
+  /* background-color: #4CAF50; */
+  background-color: #111824;
+  border-width: 3px;
+  border-color: white;
   color: white;
   /* padding: 15px 32px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
 }
