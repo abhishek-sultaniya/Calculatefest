@@ -211,6 +211,9 @@ function expand()
   // console.log(document.querySelectorAll(".hide").style.display)
   document.getElementById("polar").classList.toggle("hide");
   document.getElementById("bear").classList.toggle("hide");
+  var clicktext=document.getElementById("t25");
+  if (clicktext.value=="More") clicktext.value="Less";
+  else clicktext.value="More";
 }
 
   function sqrt(form) 
